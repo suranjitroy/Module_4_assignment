@@ -14,7 +14,7 @@ class Product {
     }
 
     public function getFormattedPrice() {
-        return "$" . $this->stringPrice = strval( number_format( $this->price, 2, '.' ) );
+        return "" . $this->stringPrice = strval( number_format( $this->price, 2, '.' ) );
     }
 
     public function consoleLog() {
